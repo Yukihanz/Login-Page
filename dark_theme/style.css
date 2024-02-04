@@ -12,7 +12,7 @@ body {
     display: flex;
         justify-content: center;
         align-items: center;
-    transition: background 1s linear;
+    transition: background 0.4s linear;
 }
 
 body.dark {
