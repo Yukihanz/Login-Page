@@ -23,6 +23,8 @@ const App = () => {
   };
 
   return (
+    <>
+    <h1>Test</h1>
     <Routes>
       <Route
         path="/"
@@ -51,6 +53,7 @@ const App = () => {
         }
       />
     </Routes>
+    </>
   );
 };
 
