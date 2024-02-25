@@ -1,0 +1,35 @@
+.header-visible {
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+}
+
+.header-invisible {
+  height: 5vh;
+  width: 100vw;
+  display: block;
+}
+
+.theme-behind {
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  height: 70%;
+  aspect-ratio: 1 / 1;
+  margin: 6px;
+}
+.theme-behind:hover {
+  cursor: pointer;
+}
+
+.theme-icon {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}

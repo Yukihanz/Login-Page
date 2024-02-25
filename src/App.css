@@ -1,0 +1,122 @@
+:root {
+  --color-shadow-indigo: #f0e6ff; /* theme and login screen shadow */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu;
+  transition: box-shadow 300ms linear, background 300ms linear,
+    color 300ms linear;
+}
+
+.background {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+/* <Header> */
+.header-invisible {
+  height: 5vh;
+  width: 100vw;
+  display: block;
+}
+.header-visible {
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+} /* theme-icon in theme.css */
+/* </Header> */
+
+main {
+  height: calc(100vh - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  padding: 50px;
+  height: 800px;
+  width: 600px;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 60% 20%; /* Sum must not excede .login-box height-padding */
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title {
+  /* Div inside login-box that contains the title saying Sign in */
+  font-size: 3.7rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-form {
+  height: 100%;
+  width: 65%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 35% 35% 30%;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+
+.inputs-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.labels {
+  font-size: 1.3rem;
+  margin: 0 0 4px 10px;
+}
+
+.inputs {
+  /* Input of username and password */
+  font-size: 1.1rem;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 15px;
+  border: 1px solid #808080;
+  background-color: rgba(190, 190, 190, 0.2);
+}
+
+.submit-button {
+  font-size: 1rem;
+  justify-self: center;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  bottom: 2px;
+  box-shadow: #aaaaaa 0 2px;
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+}
+.submit-button:hover {
+  cursor: pointer;
+  box-shadow: #aaaaaa 0 2px, rgba(0, 0, 0, 0.7) 0 0 2px 0px inset;
+}
+.submit-button:active {
+  box-shadow: rgba(0, 0, 0, 0.7) 0 0 2px 0px inset;
+  top: 0px;
+}
+
+.signup-redirect {
+  display: inline;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}

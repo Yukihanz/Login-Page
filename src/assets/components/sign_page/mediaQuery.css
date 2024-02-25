@@ -1,0 +1,116 @@
+@media only screen and (max-height: 870px) {
+  .login-box {
+    height: 700px;
+    width: 525px;
+    padding: 40.6px;
+  }
+  .login-title {
+    font-size: 3.2rem;
+  }
+  .labels {
+    font-size: 1.1rem;
+  }
+  .inputs {
+    font-size: 0.9625rem;
+  }
+  .submit-button {
+    font-size: 0.875rem;
+  }
+  .signup-redirect {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-height: 780px) {
+  .login-box {
+    height: 650px;
+    width: 487.5px;
+    padding: 39.3px;
+  }
+  .login-title {
+    font-size: 2.9875rem;
+  }
+  .labels {
+    font-size: 1.0375rem;
+  }
+  .inputs {
+    font-size: 0.89375rem;
+  }
+  .submit-button {
+    font-size: 0.8125rem;
+  }
+  .signup-redirect {
+    font-size: 1.0375rem;
+  }
+}
+@media only screen and (max-height: 720px) {
+  .login-box {
+    height: 600px;
+    width: 450px;
+    padding: 38px;
+  }
+  .login-title {
+    font-size: 2.775rem;
+  }
+  .labels {
+    font-size: 0.975rem;
+  }
+  .inputs {
+    font-size: 0.825rem;
+  }
+  .submit-button {
+    font-size: 0.75rem;
+  }
+  .signup-redirect {
+    font-size: 0.975rem;
+  }
+}
+@media only screen and (max-height: 600px) {
+  .login-box {
+    height: 550px;
+    width: 412.5px;
+    padding: 34.5px;
+  }
+  .login-title {
+    font-size: 2.54375rem;
+  }
+  .labels {
+    font-size: 0.89375rem;
+  }
+  .inputs {
+    font-size: 0.75625rem;
+  }
+  .submit-button {
+    font-size: 0.6875rem;
+  }
+  .signup-redirect {
+    font-size: 0.89375rem;
+  }
+}
+@media only screen and (max-height: 510px) {
+  .login-box {
+    height: 500px;
+    width: 375px;
+    padding: 31px;
+  }
+  .login-title {
+    font-size: 2.3125rem;
+  }
+  .labels {
+    font-size: 0.8125rem;
+  }
+  .inputs {
+    font-size: 0.6875rem;
+  }
+  .submit-button {
+    font-size: 0.625rem;
+  }
+  .signup-redirect {
+    font-size: 0.8125rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .login-box {
+    width: 100vw;
+    border-radius: 0;
+  }
+}
