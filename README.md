@@ -1,8 +1,7 @@
-# React + Vite
+# Info
+Sing in/Sign up is built using React Rite. The page is serverless meaning all the requests are made by the client. the requests to sign up and sign in are made in `handleRequest.js`, the accounts username and password are stored within a object in `accounts.js`. Both files are located in `src/assets/components/sign_page`.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+URL: https://yukihanz.github.io/Login-Page/
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Attribution
+Header utilizes 'sun.svg' and 'moon.svg' from [ICONSVG](https://iconsvg.xyz).
